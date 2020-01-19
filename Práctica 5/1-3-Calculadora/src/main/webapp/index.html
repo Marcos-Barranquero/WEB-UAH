@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora con Servlet</title>
+    </head>
+
+    <body bgcolor="#E0FFE0" text="green" link="blue" vlink="brown">
+    <center>
+        <hr style="color:green; heigth:6px; width:500">
+        <font size=5> CALCULADORA </FONT>
+        <hr style="color:green; heigth:6px; width:500">
+        <br>
+        <br>
+        <form action="CalculadoraServlet" method=POST>
+            <table border="3" WIDTH="400">
+                <tr>
+                    <td>
+                        <input name="operando1" type="text" style="text-align:right;">
+                    </td>
+                    <td>
+                        <select name="operacion">
+                            <option value="1" selected>&nbsp;&nbsp;+ &nbsp;&nbsp;</option>
+                            <option value="2">&nbsp;&nbsp; - &nbsp;&nbsp;</option>
+                            <option value="3">&nbsp;&nbsp; * &nbsp;&nbsp;</option>
+                            <option value="4">&nbsp;&nbsp; / &nbsp;&nbsp;</option>
+                        </select>
+                    <td>
+                        <input name="operando2" type="text" style="text-align:right;">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <input name="Calcular" value="Calcular" type="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="limpiar" value="Limpiar" type="reset">
+        </form>
+    </center>
+</body>
+
+</html>
