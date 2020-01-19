@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>CargarCoche</servlet-name>
+        <servlet-class>servlets.CargarCoche</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargarCircuito</servlet-name>
+        <servlet-class>servlets.CargarCircuito</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ModeloDatos</servlet-name>
+        <servlet-class>servlets.ModeloDatos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CalcularGanancia</servlet-name>
+        <servlet-class>servlets.CalcularGanancia</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CargarCoche</servlet-name>
+        <url-pattern>/CargarCoche</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargarCircuito</servlet-name>
+        <url-pattern>/CargarCircuito</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ModeloDatos</servlet-name>
+        <url-pattern>/ModeloDatos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CalcularGanancia</servlet-name>
+        <url-pattern>/CalcularGanancia</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

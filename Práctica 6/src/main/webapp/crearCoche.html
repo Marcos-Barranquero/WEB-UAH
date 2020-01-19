@@ -1,0 +1,50 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <title>Introducción de coche</title>
+    </head>
+
+    <body>
+        <br><br><br>
+        <div class="container">
+            <h1>Introduce tu coche</h1>
+            <br><br>
+            <form action="CargarCoche" method="POST">
+
+                <!-- Recojo datos -->
+                <table>
+                    <tr>
+                        <td width="500px"><p>Nombre del coche:</p></td>
+                        <td><input type="text" pattern="^[A-Za-z0-9 ]*$" size="40" name="txtNombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><p>Ganancia de potencia (entre 4 y 10 kW):</p></td>
+                        <td><input type="text" pattern="[4-9]|10" size="40" name="txtPotencia" required></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr><td><p style="font-size: 12px"><i>Longitud máxima del texto: 20 caracteres. Por compatibilidad, el nombre no puede contener caracteres especiales.</i></p><td></tr>
+                </table>
+
+                <!-- Doy de alta circuito -->
+                <input type="submit" name="BotonSubmit" value="Insertar">
+                <input type="reset" name="BotonReset" value="Resetear">
+            </form>
+        </div>
+
+        <br><br><br>
+
+        <footer class="footer">
+            <div class="container text-center">
+                <p>Práctica 6 - Marcos Barranquero y Daniel Manzano | Arquitectura y Diseño de Sistemas Web y C/S, 2019</p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
