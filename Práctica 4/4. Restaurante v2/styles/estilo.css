@@ -1,0 +1,108 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    background-color: navy;
+    width: 100%;
+    height: 100px;
+}
+
+div {
+    background-color:lightskyblue;
+    width: 200px;
+    
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+#platos {
+    background-color: lightskyblue;
+}
+
+section {
+    background-color: lightskyblue;
+    color: black;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    font: status-bar;
+    font-size: xx-large;
+    padding-top: 25px;
+    margin-top: 0px;
+}
+
+h2 {
+    color: black;
+    font: status-bar;
+    font-size: x-large;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font: status-bar;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+h4 {
+    color: black;
+    font: status-bar;
+    font-size: medium;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background: lightsteelblue;
+    width: 100%;
+    height: 50px;
+}
+
+table {
+    margin: auto;
+    width: 500px;
+}
+
+td {
+    width: 200px;
+   padding-right: 20px;
+}
+
+select {
+    width: 200px;
+}
+
+input {
+    padding-right: 20px;
+    margin: auto;
+    font: status-bar;
+    font-size: large;
+    font-weight: 600;
+    
+}
+
+label {
+    font: status-bar;
+    font-size: medium;
+}
+

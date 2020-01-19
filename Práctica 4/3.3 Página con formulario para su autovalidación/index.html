@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+
+</head>
+
+<body>
+    <nav>
+        <h1>Formulario</h1>
+    </nav>
+
+    <article>
+
+        <section>
+            <h2>Bienvenido a nuestro servicio</h2>
+
+            <form id="formulario">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Nombre: </label>
+                        </td>
+                        <td>
+                            <input required type="text" name="nombre" placeholder="Introduzca su nombre..." />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Apellidos: </label>
+                        </td>
+                        <td>
+                            <input required type="text" name="nombre" placeholder="Introduzca sus apellidos..." />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Correo electrónico: </label>
+                        </td>
+                        <td>
+                            <input required type="email" name="email" id="mail1"
+                                pattern="[a-zA-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                placeholder="Introduzca su correo..." />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Tarjeta de crédito: </label>
+                        </td>
+                        <td>
+                            <input required type="text" pattern="[0-9]{13,16}" name="cvv" id="cvv"
+                                placeholder="Número de tarj. de crédito..." />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>CVV: </label>
+                        </td>
+                        <td>
+                            <input required type="text" pattern="[0-9]{3}" name="cvv" id="cvv"
+                                placeholder="Inserta el CVV..." />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Titular: </label>
+                        </td>
+                        <td>
+                            <input required type="text" pattern="[a-zA-Z]{10, 25}" name="cvv" id="cvv"
+                                placeholder="Titular de tarjeta de crédito..." />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Edad (+18)</label>
+                        </td>
+                        <td>
+                            <input required type="number" name="edad" min="18" max="99" placeholder="(+18)" />
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <input required type="checkbox" name="acepto" />
+                            <label>Acepto los térmminos y condiciones</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="promocionales" />
+                            <label>Deseo recibir correos promocionales (opcional)</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" id="enviar" value="Registrarse" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </section>
+
+    </article>
+
+    <footer>
+        <h3>Práctica 4 - Marcos Barranquero y Daniel Manzano | Arquitectura y Diseño de Sistemas Web y C/S, 2019</h3>
+    </footer>
+</body>
+
+</html>

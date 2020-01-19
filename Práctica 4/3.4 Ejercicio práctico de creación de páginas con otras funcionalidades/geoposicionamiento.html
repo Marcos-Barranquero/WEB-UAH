@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Geoposicionamiento</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Geoposicionamiento</h1>
+        <h4>
+            <a href="index.html">Inicio</a> |
+            <a href="draganddrop.html">Drag & Drop</a> |
+            <a href="offline.html">Trabajar offline</a> |
+            <a href="juego.html">Juego</a>
+        </h4>
+    </nav>
+
+    <article>
+
+        <section>
+            <h2>¿Quieres saber tus coordenadas?</h2>
+
+            <button onclick="getLocation()">Aquí las tienes</button>
+
+            <h3 id="lat"></h3>
+            <h3 id="lon"></h3>
+            <script src="scripts/geoposicionamiento.js"></script>
+        </section>
+
+    </article>
+
+    <footer>
+        <h3 id="foot">
+            Práctica 4 - Marcos Barranquero y Daniel Manzano | Arquitectura y Diseño de Sistemas Web y C/S, 2019
+        </h3>
+    </footer>
+</body>
+
+</html>

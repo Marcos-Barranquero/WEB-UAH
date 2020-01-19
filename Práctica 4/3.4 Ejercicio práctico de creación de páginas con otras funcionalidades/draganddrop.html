@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Drag & Drop</title>
+    <link rel="stylesheet" href="styles/estilo.css">
+    <script src="scripts/draganddrop.js"></script>
+</head>
+
+<body>
+    <nav>
+        <h1>Drag & Drop</h1>
+        <h4>
+            <a href="index.html">Inicio</a> |
+            <a href="geoposicionamiento.html">Geoposicionamiento</a> |
+            <a href="offline.html">Trabajar offline</a> |
+            <a href="juego.html">Juego</a>
+
+        </h4>
+    </nav>
+
+    <article>
+
+        <section id="section_dnd">
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="media/hoja.png" draggable="true" ondragstart="drag(event)" id="drag1">
+            </div>
+            <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </section>
+
+    </article>
+
+    <footer>
+        <h3 id="foot">
+            Práctica 4 - Marcos Barranquero y Daniel Manzano | Arquitectura y Diseño de Sistemas Web y C/S, 2019
+        </h3>
+    </footer>
+</body>
+
+</html>
