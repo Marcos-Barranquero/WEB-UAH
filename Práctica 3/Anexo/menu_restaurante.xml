@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MENU>
+<PLATO>
+    <Nombre>Puré de patata</Nombre>
+    <Precio>5.95</Precio>
+    <Descripcion>Puré de patata roja con picatostes</Descripcion>
+    <Calorias>350</Calorias>
+</PLATO>
+<PLATO>
+    <Nombre>Macarrones con queso</Nombre>
+    <Precio>4.95</Precio>
+    <Descripcion>Macarrones con queso parmesano</Descripcion>
+    <Calorias>450</Calorias>
+</PLATO>
+<PLATO>
+    <Nombre>Garbanzos con chorizo</Nombre>
+    <Precio>6.95</Precio>
+    <Descripcion>Garbanzos cocidos con chorizo de Atienza</Descripcion>
+    <Calorias>950</Calorias>
+</PLATO>
+<PLATO>
+    <Nombre>Judías verdes</Nombre>
+    <Precio>3.95</Precio>
+    <Descripcion>Judías verdes cocidas de la variedad “Blanca de España”</Descripcion>
+    <Calorias>350</Calorias>
+</PLATO>
+<PLATO>
+    <Nombre>Sopa de pescado</Nombre>
+    <Precio>5.95</Precio>
+    <Descripcion>Sopa de morralla de pescado</Descripcion>
+    <Calorias>350</Calorias>
+</PLATO>
+<PLATO>
+    <Nombre>Merluza a la plancha</Nombre>
+    <Precio>6.95</Precio>
+    <Descripcion>Rodaja de merluza a la plancha con aceita de oliva</Descripcion>
+    <Calorias>400</Calorias>
+</PLATO>
+</MENU>
